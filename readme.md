@@ -10,7 +10,7 @@
 
 ## installation  
 ```
-git clone -b release/0.1 https://github.com/slavanorm/cv_website.git
+git clone https://github.com/slavanorm/cv_website.git
 sudo apt install apache2 python3
 sudo service apache2 start
 ```  
