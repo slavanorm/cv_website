@@ -14,14 +14,12 @@ Skills
 		test-driven
 		McCabe complexity 
 		profiling
-			time
-			performance
 		django
 		flask
 		rest
 
 Work
-	<a href="CV_details_Tyryshkin.pdf"># here is long-list</a>
+	<a href="CV_details.pdf"># here is long-list</a>
 	2019..now
 	python developer
 	@ BI vendor
@@ -38,17 +36,15 @@ Work
 			improvement
 
 Courses
+    Test Driven Development
+        obeythetestinggoat.com
+        # in progress
 	ML from scratch by Andrew Ng
 		<a href="https://coursera.org/learn/machine-learning" target="_top">link</a>
 	ML crash course by google
 		<a href="https://developers.google.com/machine-learning/crash-course" target="_top">link</a>
-	mlcourse.ai 
-		# in progress
 	21-school.ru 
 		# only pool, but much fun
-	Test Driven Development
-		obeythetestinggoat.com 
-		# in progress
 	CIMA P1
 
 Education

@@ -1,0 +1,9 @@
+[Unit]
+Description=My daemon
+
+[Service]
+ExecStart=home/v/cv_website/bash/update_d
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

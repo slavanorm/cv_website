@@ -1,8 +1,12 @@
+#!/usr/bin/python3
+
 drop_first = 3
 tab_replacement = '   '
 
 cv = open('cv.txt').read()
 cv = cv.split('\n')
+t1=open('html/read_template.html').read()
+t2=open('html/print_template.html').read()
 
 # toml-style -> dict
 cv_parse={}
@@ -41,14 +45,10 @@ contents = [
 contents = ''.join(contents)
 
 # html -> templates
-t1=open('read_template.html').read()
-
 t1 = t1.replace('{input}',cv)
 t1 = t1.replace('{contents}',contents)
 
 open('/var/www/html/index.html','w').write(t1)
-
-t2=open('print_template.html').read()
 
 t2 = t2.replace('{input1}',print_cv[1])
 t2 = t2.replace('{input2}',print_cv[2])
