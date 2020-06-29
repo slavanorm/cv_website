@@ -10,8 +10,8 @@
 
 ## installation  
 ```
-git clone https://github.com/slavanorm/cv_website.git \
-sudo apt install apache2 python3 \
+git clone https://github.com/slavanorm/cv_website.git; \
+sudo apt install apache2 python3; \
 sudo service apache2 start
 ```  
 ## auto-update content on git push  
