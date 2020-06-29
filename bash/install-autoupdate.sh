@@ -1,3 +1,5 @@
+cd "$(dirname "$0")"
+
 # daemon cv_daemon.sh
 cat cv_daemon.sh.template | sed  's:__pwd__:'"$(pwd)"':' > cv_daemon.sh
 # unit cv_website.service
