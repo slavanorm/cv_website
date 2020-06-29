@@ -1,6 +1,7 @@
 #!/bin/sh
 
 while true; do
+	git fetch
 	check=$(git status | grep "up to date" | wc -l)
 	if [ check==0 ]
 	then
