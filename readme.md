@@ -1,5 +1,5 @@
 
-# this code is running on tyryshkin.com
+# code running tyryshkin.com
 
 ## installation  
 ```
