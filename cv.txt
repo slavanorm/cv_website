@@ -10,13 +10,14 @@ Skills
 		airflow
 		pandas
 		graphql
+		web-parsing
 	coding
 		test-driven
 		McCabe complexity 
 		profiling
 		django
 		flask
-		rest
+		rest-api
 
 Work
 	<a href="CV_details.pdf"># here is long-list</a>
@@ -56,7 +57,7 @@ Education
 		GPA 4.4/5
 		Paper on KPI implementation
 
-Contacts
-	<a href="mailto:v@tyryshkin.com" target="_top">v@tyryshkin.com</a><a href="https://www.linkedin.com/in/tyryshkin" target="_top">
+Contacts<a href="mailto:v@tyryshkin.com" target="_top">
+	v@tyryshkin.com</a><a href="https://www.linkedin.com/in/tyryshkin" target="_top">
 	linkedin.com/in/tyryshkin</a><a href="https://www.github.com/slavanorm" target ="_top">
 	github.com/slavanorm</a>
