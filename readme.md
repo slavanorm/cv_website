@@ -1,8 +1,8 @@
 
 # this code is running on tyryshkin.com
 
-# requirements  
-1.lamp-server  
-2.python3  
+## requirements  
+* lamp-server  
+* python3  
 
-# installation
+## installation
