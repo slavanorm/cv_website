@@ -6,10 +6,10 @@ while true; do
 	if [ check==0 ]
 	then
 		str="updating $(date +%H:%M_%m-%d-%y)"
-		echo $str >> /home/v/cv_website/bash/../../cv_logs
-		echo $(git status) >> /home/v/cv_website/bash/../../cv_logs
+		echo $str >> __pwd__/../../cv_logs
+		echo $(git status) >> __pwd__/../../cv_logs
 		git pull
-		python3 /home/v/cv_website/bash/../main.py
+		python3 __pwd__/../main.py
 	fi
 	sleep 60;
 done
