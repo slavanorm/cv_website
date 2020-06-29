@@ -11,10 +11,12 @@ sudo service apache2 start
 this can auto-update website contents once you pushed update to git  
 enable:  
 ```
-sh cv_website/bash/install-autoupdate.sh```  
+sh cv_website/bash/install-autoupdate.sh
+```  
 disable:  
 ```
-sh cv_website/bash/uninstall-autoupdate.sh```  
+sh cv_website/bash/uninstall-autoupdate.sh
+```  
 ## logging  
 auto-update logs to cv_website/../cv_logs  
 you can disable it in bash/cv_daemon.sh
