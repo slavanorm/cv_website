@@ -1,18 +1,10 @@
 #!/bin/sh
 $(git fetch)
-UPSTREAM=${1:-'@{u}'}
-LOCAL=$(git rev-parse @)
-REMOTE=$(git rev-parse "$UPSTREAM")
-BASE=$(git merge-base @ "$UPSTREAM")
+Test=$(git status | grep "up to date" | wc -l)
 ret=1
-if [ $LOCAL = $REMOTE ]; then
+
+if [ $Test = 1 ]; then
 	ret=0
-    echo "Up-to-date"
-#elif [ $LOCAL = $BASE ]; then
-#    echo "Need to pull"
-#elif [ $REMOTE = $BASE ]; then
-#    echo "Need to push"
-#else
-#    echo "Diverged"
+	echo $Test
 fi
 exit $ret
