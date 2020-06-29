@@ -36,10 +36,10 @@ Work
 			improvement
 
 Courses
-    Test Driven Development
-        obeythetestinggoat.com
-        # in progress
-	ML from scratch by Andrew Ng
+	Test Driven Development by H. Percival
+		<a href="https://obeythetestinggoat.com>link</a
+		# in progress
+	ML from scratch by A. Ng
 		<a href="https://coursera.org/learn/machine-learning" target="_top">link</a>
 	ML crash course by google
 		<a href="https://developers.google.com/machine-learning/crash-course" target="_top">link</a>

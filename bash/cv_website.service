@@ -1,8 +1,8 @@
 [Unit]
-Description=My daemon
+Description=CV Website update daemon
 
 [Service]
-ExecStart=home/v/cv_website/bash/update_d
+ExecStart=/home/v/cv_website/bash/cv_daemon.sh
 Restart=on-failure
 
 [Install]
