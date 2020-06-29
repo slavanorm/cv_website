@@ -4,7 +4,7 @@
 ## usage
 1 fork  
 2 install  
-3 fill your cv.txt  
+3 fill your cv.txt with text or HTML  
 4 update site: py cv_website/main.py  
 5 that's it!
 
