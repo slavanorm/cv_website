@@ -2,12 +2,11 @@
 
 while true; do
 	cd __pwd__
-	git fetch
-	check=$(git status | grep "up to date" | wc -l)
-	if [ check==0 ]
+	git fetch -q
+	git status | grep "up to date" >/dev/null
+	if [ $? -eq 1 ]
 	then
-		echo "updating $(date +%H:%M_%m-%d-%y)"
-		git pull
+		git pull -q
 		python3 __pwd__/../main.py
 	fi
 	sleep 60;
