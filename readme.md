@@ -27,7 +27,7 @@ sh cv_website/bash/uninstall-autoupdate.sh
 ```
 journalctl --unit cv_website.service --follow
 ```
-## pull extra files like css, favicon  
+## pull extra files like css 
 ```
 sh cv_website/bash/other.sh
 ```
