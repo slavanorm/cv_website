@@ -9,5 +9,5 @@ while true; do
 		git pull -q
 		python3 __pwd__/../main.py
 	fi
-	sleep 60;
+	sleep 1000;
 done
