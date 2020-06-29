@@ -2,10 +2,10 @@
 # code running tyryshkin.com
 
 ## usage
-1 fork
-2 install
-3 fill your cv.txt
-4 update site: py cv_website/main.py
+1 fork  
+2 install  
+3 fill your cv.txt  
+4 update site: py cv_website/main.py  
 5 that's it!
 
 ## installation  
@@ -26,4 +26,8 @@ sh cv_website/bash/uninstall-autoupdate.sh
 ## logging  
 ```
 journalctl --unit cv_website.service --follow
+```
+## pull extra files like css, favicon  
+```
+sh cv_website/bash/other.sh
 ```
