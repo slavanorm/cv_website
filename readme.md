@@ -14,7 +14,7 @@ git clone -b release/0.1 https://github.com/slavanorm/cv_website.git
 sudo apt install apache2 python3
 sudo service apache2 start
 ```  
-## auto-update on git push  
+## auto-update content on git push  
 enable:  
 ```
 sh cv_website/bash/install-autoupdate.sh
