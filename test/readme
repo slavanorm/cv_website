@@ -1,0 +1,33 @@
+: '
+script-daemon @ /home/v/cv_website/bash/daemon:
+
+#!/bin/sh
+
+while true; do
+  echo test >> /home/v/cv_logs;
+  sleep 60;
+done
+
+
+unit @ /etc/systemd/system/cv_website.service:
+
+[Unit]
+Description=My daemon
+
+[Service]
+ExecStart=/home/v/cv_website/bash/update_d
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 
+
+To start the demon you run
+systemctl start mydaemon.service 
+
+To start at boot you enable it
+systemctl enable mydaemon.service
+
+source:
+https://unix.stackexchange.com/questions/426862/proper-way-to-run-shell-script-as-a-daemon
+
+'
