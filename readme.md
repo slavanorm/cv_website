@@ -5,7 +5,7 @@
 1 fork  
 2 install  
 3 fill your cv.txt with text or HTML  
-4 update site: py cv_website/main.py  
+4 parse cv to html: python3 cv_website/main.py  
 5 that's it!
 
 ## installation  
