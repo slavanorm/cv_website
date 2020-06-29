@@ -1,6 +1,13 @@
 
 # code running tyryshkin.com
 
+## usage
+1 fork
+2 install
+3 fill your cv.txt
+4 update site: py cv_website/main.py
+5 that's it!
+
 ## installation  
 ```
 git clone https://github.com/slavanorm/cv_website.git
