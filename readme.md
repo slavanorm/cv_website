@@ -10,7 +10,7 @@
 
 ## installation  
 ```
-git clone https://github.com/slavanorm/cv_website.git
+git clone -b release/0.1 https://github.com/slavanorm/cv_website.git
 sudo apt install apache2 python3
 sudo service apache2 start
 ```  
@@ -26,8 +26,4 @@ sh cv_website/bash/uninstall-autoupdate.sh
 ## logging  
 ```
 journalctl --unit cv_website.service --follow
-```
-## pull extra files like css 
-```
-sh cv_website/bash/other.sh
 ```
