@@ -1,9 +1,0 @@
-[Unit]
-Description=CV Website update daemon
-
-[Service]
-ExecStart=/home/v/cv_website/bash/cv_daemon.sh
-Restart=on-failure
-
-[Install]
-WantedBy=multi-user.target

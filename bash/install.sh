@@ -1,7 +1,7 @@
 # script-daemon @ cv_website/bash/cv_daemon.sh
 
 # unit @ /etc/systemd/system/cv_website.service
-cp cv_website.service /etc/systemd/system/
+cat cv_website.service.template | sed 's:__pwd__:'"$(pwd)"':' > /etc/systemd/system/cv_website.service
 
 #To start the daemon you run
 systemctl start cv_website.service

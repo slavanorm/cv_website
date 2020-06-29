@@ -6,7 +6,7 @@ while true; do
 		str="updating $(date +%H:%M_%m-%d-%y)"
 		echo $str >> ~/cv_logs
 		git pull
-		py ../main.py
+		python3 ../main.py
 	fi
 	sleep 60;
 done
