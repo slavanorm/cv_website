@@ -1,0 +1,9 @@
+[Unit]
+Description=CV Website update daemon
+
+[Service]
+ExecStart=__pwd__/cv_daemon.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

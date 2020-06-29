@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 
+import os.path as p
+
+pwd = p.abspath(p.dirname(__file__))
+
+
 drop_first = 3
 tab_replacement = '   '
 
-cv = open('cv.txt').read()
+cv = open(p.join(pwd,'cv.txt')).read()
 cv = cv.split('\n')
-t1=open('html/read_template.html').read()
-t2=open('html/print_template.html').read()
+t1=open(p.join(pwd,'html/read_template.html')).read()
+t2=open(p.join(pwd,'html/print_template.html')).read()
 
 # toml-style -> dict
 cv_parse={}
