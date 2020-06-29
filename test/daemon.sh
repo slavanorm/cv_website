@@ -7,6 +7,7 @@ while true; do
 		str+="$(date)\n" >> /home/v/cv_logs
 		str+="$(git checkout)"
 		echo $(str) >> /home/v/cv_logs
+		echo need update
 	else
 		echo uptodate
 	fi
