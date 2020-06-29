@@ -4,20 +4,21 @@ Here is readable CV
 <a href='printable.html'>There is printable CV</a>
 	
 Skills
-	data preparation
-		SQL
+	ETL
+		sql
+		spark
 		airflow
 		pandas
-	ML
-		scikit-learn
-		tensorflow
+		graphql
 	coding
-		functional/unit testing
+		test-driven
+		McCabe complexity 
 		profiling
+			time
+			performance
 		django
 		flask
 		rest
-		graphql
 
 Work
 	<a href="CV_details_Tyryshkin.pdf"># here is long-list</a>
@@ -61,9 +62,5 @@ Education
 
 Contacts
 	<a href="mailto:v@tyryshkin.com" target="_top">v@tyryshkin.com</a><a href="https://www.linkedin.com/in/tyryshkin" target="_top">
-	linkedin.com/in/tyryshkin</a>
-
-	More
-<a href="https://www.kaggle.com/tyryshkin" target ="_top">		kaggle.com/tyryshkin</a><a href="https://www.github.com/slavanorm" target ="_top">
-		github.com/slavanorm</a><a href="https://online-go.com/player/775899" target="_top">
-		online-go.com/player/775899</a>
+	linkedin.com/in/tyryshkin</a><a href="https://www.github.com/slavanorm" target ="_top">
+	github.com/slavanorm</a>
