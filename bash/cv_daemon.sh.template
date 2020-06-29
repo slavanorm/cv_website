@@ -6,9 +6,7 @@ while true; do
 	check=$(git status | grep "up to date" | wc -l)
 	if [ check==0 ]
 	then
-		str="updating $(date +%H:%M_%m-%d-%y)"
-		echo $str >> __pwd__/../../cv_logs
-		echo $(git status) >> __pwd__/../../cv_logs
+		echo "updating $(date +%H:%M_%m-%d-%y)"
 		git pull
 		python3 __pwd__/../main.py
 	fi
