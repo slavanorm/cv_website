@@ -1,4 +1,4 @@
-# script-daemon @ cv_website/bash/cv_daemon.sh
+# script-daemon @ cv_daemon.sh
 
 # unit @ /etc/systemd/system/cv_website.service
 cat cv_website.service.template | sed 's:__pwd__:'"$(pwd)"':' > /etc/systemd/system/cv_website.service

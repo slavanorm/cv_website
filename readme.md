@@ -14,5 +14,5 @@ you can enable it with
 sh cv_website/bash/install.sh
 ```  
 ## logging  
-update of git contents logs to ../cv_logs  
+update of git logs to ../cv_logs  
 you can disable it in bash/cv_daemon.sh

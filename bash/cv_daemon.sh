@@ -1,7 +1,8 @@
 #!/bin/sh
 
 while true; do
-	if [ ! $(./check_git_is_latest.sh) ]
+	check=$(git status | grep "up to date" | wc -l)
+	if [ check==1 ]
 	then
 		str="updating $(date +%H:%M_%m-%d-%y)"
 		echo $str >> ../../cv_logs
