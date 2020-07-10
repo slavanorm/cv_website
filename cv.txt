@@ -13,7 +13,7 @@ Skills
 		web-parsing
 	coding
 		test-driven
-		McCabe complexity 
+		flake8
 		profiling
 		django
 		flask
