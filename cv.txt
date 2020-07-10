@@ -43,8 +43,7 @@ Courses
 		<a href="https://coursera.org/learn/machine-learning" target="_top">link</a>
 	ML crash course by google
 		<a href="https://developers.google.com/machine-learning/crash-course" target="_top">link</a>
-	21-school.ru 
-		# only pool, but much fun
+	21-school.ru # only pool
 	CIMA P1
 
 Education
