@@ -5,7 +5,8 @@ Here is readable CV
 
 About me
 	I am python developer with experience in finance.
-	I started programming in 2019, after going to school-21 (russian Ecole 42).
+	I started programming in 2019, 
+	after going to school-21 (russian Ecole 42).
 	Since then, my main experience was backend and ETL related. 
 	I also had some freelance in cloud devops and front-end.
 
