@@ -4,8 +4,7 @@ import os.path as p
 
 pwd = p.abspath(p.dirname(__file__))
 
-first_print_column=["About me", "Skills",
-"Education"]
+first_print_column = ["About me", "Skills", "Education"]
 drop_first = 3
 tab_replacement = "   "
 

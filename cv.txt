@@ -41,6 +41,7 @@ Skills
 		profiling
 		django/flask
 		react
+
 Courses
 	Test Driven Development by H. Percival
 		<a href="https://obeythetestinggoat.com>link</a
