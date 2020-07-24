@@ -2,41 +2,44 @@ I'm Slava Tyryshkin
 
 Here is readable CV
 <a href='printable.html'>There is printable CV</a>
-	
-Skills
-	ETL
-		sql
-		spark
-		airflow
-		pandas
-		graphql
-		web-parsing
-	coding
-		test-driven
-		flake8
-		profiling
-		django
-		flask
-		rest-api
 
-Work
+About me
+	I am python developer with experience in finance.
+	I started programming in 2019, after going to school-21 (russian Ecole 42).
+	Since then, my main experience was backend and ETL related. 
+	I also had some freelance in cloud devops and front-end.
+
+Work experience
 	2019..now
 	python developer
-	@ BI vendor
-		lead developed API wrap for BI system
+	@ BI vendor: www.polymatica.ru
+		python API for BI system
 		and micro-services related
 
 	2014..2019
 	financial controller 
-	@ FMCG and adtech startup
+	@ companies in FMCG and adtech
 		financial statements &
 		data-processes
 			preparation
 			checking
 			improvement
-
 	<a href="CV_details.pdf"># here is long-list</a>
 
+Skills
+	ETL
+		sql
+		rest
+		graphql
+		airflow
+		spark
+	coding
+		test-driven
+		asyncio
+		flake8
+		profiling
+		django/flask
+		react
 Courses
 	Test Driven Development by H. Percival
 		<a href="https://obeythetestinggoat.com>link</a
