@@ -4,7 +4,8 @@ import os.path as p
 
 pwd = p.abspath(p.dirname(__file__))
 
-
+first_print_column=["About me", "Skills",
+"Education"]
 drop_first = 3
 tab_replacement = "   "
 
@@ -40,7 +41,7 @@ for k, v in cv_parse.items():
     cv += f"""<span id="{k}" class="section scrollspy">{v}</span>"""
     if v.strip() != "":
         i += 1
-    if k in ["About me", "Education", "Contacts"]:
+    if k in first_print_column:
         print_cv[1] += v
     elif i > drop_first:
         print_cv[2] += v
