@@ -5,7 +5,7 @@ import os.path as p
 pwd = p.abspath(p.dirname(__file__))
 
 
-drop_first = 3
+drop_first = 4
 tab_replacement = '   '
 
 cv = open(p.join(pwd,'cv.txt')).read()
