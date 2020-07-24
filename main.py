@@ -40,7 +40,7 @@ for k, v in cv_parse.items():
     cv += f"""<span id="{k}" class="section scrollspy">{v}</span>"""
     if v.strip() != "":
         i += 1
-    if k in ["Skills", "Education", "Contacts"]:
+    if k in ["About me", "Education", "Contacts"]:
         print_cv[1] += v
     elif i > drop_first:
         print_cv[2] += v

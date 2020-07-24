@@ -8,7 +8,7 @@ About me
 	I started programming in 2019, 
 	after going to school-21 (russian Ecole 42).
 	Since then, my main experience was backend and ETL related. 
-	I also had some freelance in cloud devops and front-end.
+	I also had freelance in cloud devops and front-end.
 
 Work experience
 	2019..now
