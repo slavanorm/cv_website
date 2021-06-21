@@ -6,16 +6,17 @@ Here is readable CV
 About me
 	I am python developer with experience in finance.
 	I started programming in 2019, 
-	after going to 21-school (russian Ecole 42).
-	Since then, my main experience was backend and ETL related. 
-	I also had freelance in cloud devops and front-end.
+	after going to Ecole 42 in Moscow, Russia.
+	Since then, i do backend and ETL.
 
 Work experience
+	<a href="CV_details.pdf"># here is long-list</a>
 	2019..now
 	python developer
-	@ BI vendor: www.polymatica.ru
-		python API for BI system
-		and micro-services related
+		backend
+		API integration
+		testing
+		ETL
 
 	2014..2019
 	financial controller 
@@ -25,32 +26,32 @@ Work experience
 			preparation
 			checking
 			improvement
-	<a href="CV_details.pdf"># here is long-list</a>
 
 Skills
 	ETL
 		sql
-		rest
 		graphql
-		airflow
 		spark
+		celery
+		airflow
+		rabbitmq
 	coding
 		test-driven
-		asyncio
-		flake8
 		profiling
-		django/flask
-		react
+		flake8
+	libraries
+		fastapi/django/flask
+		asyncio
+		numba
 
 Courses
 	Test Driven Development by H. Percival
 		<a href="https://obeythetestinggoat.com>link</a
-		# in progress
 	ML from scratch by A. Ng
 		<a href="https://coursera.org/learn/machine-learning" target="_top">link</a>
 	ML crash course by google
 		<a href="https://developers.google.com/machine-learning/crash-course" target="_top">link</a>
-	21-school.ru # only pool
+	21-school.ru
 	CIMA P1
 
 Education
@@ -63,7 +64,6 @@ Education
 		Paper on KPI implementation
 
 Contacts
-	www.tyryshkin.com
 	<a href="mailto:v@tyryshkin.com" target="_top">v@tyryshkin.com</a><a href="https://www.linkedin.com/in/tyryshkin" target="_top">
 	linkedin.com/in/tyryshkin</a><a href="https://www.github.com/slavanorm" target ="_top">
 	github.com/slavanorm</a>
