@@ -61,7 +61,7 @@ Courses
 	Statistics I, by A. Karpov
 		<a href="https://stepik.org/cert/2305481?lang=en">link</a>
 	Test Driven Development, by H. Percival
-		<a href="https://obeythetestinggoat.com>link</a>
+		<a href="https://obeythetestinggoat.com">link</a>
 	ML from scratch, by A. Ng
 		<a href="https://coursera.org/learn/machine-learning" target="_top">link</a>
 	ML crash course, by google
