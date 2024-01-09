@@ -11,7 +11,18 @@ About me
 
 Work experience
 	<a href="CV_details.pdf"># here is long-list</a>
-	2019..now
+	2021..2023
+	Data engineer
+		leading team of 2 people
+		system design from scratch
+		API integration
+		ETL
+		reporting
+			player activity
+			feauture launch
+			anti-fraud
+
+	2019..2021
 	python developer
 		backend
 		API integration
@@ -30,26 +41,30 @@ Work experience
 Skills
 	ETL
 		sql
+		python
 		graphql
 		spark
-		celery
 		airflow
+		celery
 		rabbitmq
 	coding
 		test-driven
 		profiling
-		flake8
 	libraries
 		fastapi/django/flask
 		asyncio
 		numba
 
 Courses
-	Test Driven Development by H. Percival
-		<a href="https://obeythetestinggoat.com>link</a
-	ML from scratch by A. Ng
+	AB-testing in python, by karpov.courses
+		<a href="https://lab.karpov.courses/certificate/58594efe-c511-42a2-b8b5-73c0d16e3e1f/en/">link</a>
+	Statistics I, by A. Karpov
+		<a href="https://stepik.org/cert/2305481?lang=en">link</a>
+	Test Driven Development, by H. Percival
+		<a href="https://obeythetestinggoat.com>link</a>
+	ML from scratch, by A. Ng
 		<a href="https://coursera.org/learn/machine-learning" target="_top">link</a>
-	ML crash course by google
+	ML crash course, by google
 		<a href="https://developers.google.com/machine-learning/crash-course" target="_top">link</a>
 	21-school.ru
 	CIMA P1
@@ -67,3 +82,4 @@ Contacts
 	<a href="mailto:s@tyryshkin.me" target="_top">s@tyryshkin.me</a>
 	<a href="https://www.linkedin.com/in/tyryshkin" target="_top">linkedin.com/in/tyryshkin</a>
 	<a href="https://www.github.com/slavanorm" target ="_top">github.com/slavanorm</a>
+	<a href="https://www.kaggle.com/slavanorm" target ="_top">kaggle.com/slavanorm</a>
